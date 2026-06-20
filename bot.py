@@ -569,7 +569,7 @@ def get_usernames():
                 lookup(email_aol, domain_type="aol")
         except Exception:
             pass
-          def rest(raju_mistri):
+def rest(raju_mistri):
     return f"https://www.instagram.com/accounts/password/reset/"
 
 if __name__ == "__main__":
