@@ -1,2 +1,3 @@
 pyTelegramBotAPI
-pip install requests cfonts
+requests
+cfonts
