@@ -13,14 +13,13 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy the rest of your application code into the container
 COPY . .
 
-# Expose the port your backend runs on (change 8000 to your actual port if needed)
-EXPOSE 8000
+# Expose Port 80 for Back4App
+EXPOSE 80
 
 # Run main.py when the container launches
-CMD ["python", "main.py"]
-
+CMD ["python3", "main.py"]
