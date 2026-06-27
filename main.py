@@ -19,7 +19,7 @@ from telegram.ext import (
 )
 
 # ── Bot token ──────────────────────────────────────────────────────────────────
-BOT_TOKEN = "8383983509:AAHv4vtsFdUhuUlkc5m9FeAUTZsNwpX5Mko"   # <-- Replace with your token from @BotFather
+BOT_TOKEN = "8832248995:AAEPpAAqqlL_F8eOpYiiiI7UhvCgeoBBZb4"   # <-- Replace with your token from @BotFather
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(
